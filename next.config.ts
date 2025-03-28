@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  devIndicators: {
+    buildActivity: false, // Disable the build activity indicator (Vercel button)
+  },
 };
 
 export default nextConfig;
